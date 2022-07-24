@@ -56,6 +56,7 @@ class CourseController extends Controller
     {
         return view('course.edit', [
             'each'=>$course,
+            //////
         ]);
     }
 
